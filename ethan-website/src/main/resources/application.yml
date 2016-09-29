@@ -1,0 +1,12 @@
+spring:
+  profiles.active: default
+  profiles: default
+
+  server:
+    port: 8000
+  data:
+    mongodb:
+      host: localhost
+      port: 27017
+      database: images
+      
