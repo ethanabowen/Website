@@ -20,7 +20,7 @@ import com.website.service.ImageService;
 
 @Component
 @RestController
-public class ImageEndpoints {
+public class RunKeeperEndpoints {
 	
 	@Autowired
 	public ImageService imageService;

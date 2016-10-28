@@ -11,10 +11,10 @@ import com.website.domain.Image;
 
 @Component
 @Repository
-public interface ImageRepository extends MongoRepository<Image, Integer> {
-//
-//	Image create(Image imageReq);
-//
+public interface ImageRepository extends MongoRepository<Image, String> {
+
+	//Image create(Image imageReq);
+
 //	List<Image> findByLastName(@Param("name") String name);
 //    List<Image> findAll();
 //    Image findById(@Param("id") Integer id);

@@ -2,7 +2,7 @@ package com.website.domain;
 
 import org.springframework.data.annotation.Id;
 
-public class Image {
+public class Run {
 
 	@Id
 	private String id;
